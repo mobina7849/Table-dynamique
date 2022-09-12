@@ -31,7 +31,7 @@ function addTask(e){
     const btnUpdate=document.createElement('button');
     btnUpdate.className="btn btn-success update-item";
     btnUpdate.innerText="update";
-    //tdid.appendChild(document.createTextNode(firstInput.value));
+    tdid.appendChild(document.createTextNode((Math.floor(Math.random() * 1000))));
     tdfirst.appendChild(document.createTextNode(firstInput.value));
     tdlast.appendChild(document.createTextNode(lastInput.value));
     tdcode.appendChild(document.createTextNode(codeInput.value));
